@@ -20,25 +20,25 @@
 <body>
 
 <p>//服务器系统</p>
-<p>jssp.os = <%=jssp.os%></p>
+<p>jssp.os</p>
 <p>//服务器架构</p>
-<p>jssp.arch = <%=jssp.arch%></p>
+<p>jssp.arch</p>
 <p>//Jssp版本</p>
-<p>jssp.version = <%=jssp.version%></p>
+<p>jssp.version</p>
 
 <p>//storage</p>
-<p>jssp.storage.getItem("key") = <%=jssp.storage.getItem("key")%></p>
-<p>jssp.storage.setItem("key", new Date()) = <%=jssp.storage.setItem("key", new Date())%></p>
-<p>jssp.storage.getItem("key") = <%=jssp.storage.getItem("key")%></p>
-<p>jssp.storage.removeItem("key") = <%=jssp.storage.removeItem("key")%></p>
-<p>jssp.storage.getItem("key") = <%=jssp.storage.getItem("key")%></p>
+<p>jssp.storage.getItem(key)</p>
+<p>jssp.storage.setItem(key, value)</p>
+<p>jssp.storage.getItem(key)</p>
+<p>jssp.storage.removeItem(key)</p>
+<p>jssp.storage.getItem(key)</p>
 
 <p>//cypto</p>
-<p>jssp.cypto.md5("123456") = <%=jssp.cypto.md5("123456")%></p>
-<p>jssp.cypto.sha1("123456") = <%=jssp.cypto.sha1("123456")%></p>
+<p>jssp.cypto.md5(value)</p>
+<p>jssp.cypto.sha1(value)</p>
 
 <p>//执行命令行</p>
-<p>jssp.exec(jssp.os == "windows" ? "dir" : "ls") = <%=jssp.exec(jssp.os == "windows" ? "dir" : "ls")%></p>
+<p>jssp.exec(cmd)</p>
 
 </body>
 </html>
